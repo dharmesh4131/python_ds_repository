@@ -2,15 +2,7 @@ a = int(input("Enter a number to print 0-9: "))
 x = ["0 0 0 0 0 0 0", "5           1", "5           1","6 6 6 6 6 6 6","4           2", "4           2", "3 3 3 3 3 3 3"]
 
 if a == 0:
-    '''
-    print(x[0])
-    print(x[1])
-    print(x[2])
-    print(x[3])
-    print(x[4])
-    print(x[5])
-    print(x[6])
-    '''
+ 
     print(x[0].replace("0","*"))
     print(x[1].replace("1","*").replace("5","*"))
     print(x[2].replace("1","*").replace("5","*"))
